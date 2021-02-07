@@ -1,0 +1,153 @@
+.navbar{
+    background-color: #a517ba;
+}
+.navbar-brand img{
+    height: 40px;
+}
+.navbar-nav li a{
+    color: rgb(182, 207, 168) !important;
+    font-weight: 700;
+    float:right;
+    align-items: left;
+}
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+#banner{
+    background-color: #a517ba;
+    color: white;
+}
+.promo{
+    color: white;
+    font-size: 2rem;
+    margin-top: 100px;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: white;
+}
+.buttom-img{
+    width: 100%;
+    height: 100px;
+}
+
+#services{
+    padding: 80px 0;
+}
+.Service-img{
+    width: 100%;
+    margin-top: 20px;
+}
+.Service{
+    padding: 20px;
+}
+.Service h1{
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(65px);
+}
+.links{
+    padding: none;
+    margin-top: 10px;   
+}
+.about-title{
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#About{
+    background-color: #b664cc;
+}
+#About ul li{
+    margin: 20px 0;
+}
+#About ul li a{
+    margin-left: 20px;
+}
+
+/* #test{
+    background-color: rgb(236, 140, 232) !important;
+} */
+/* .bg-col{
+    background-color: rgb(236, 140, 232);
+} */
+
+.testimonial{
+    border-left: 4px solid #7b1798;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.testimonial img{
+    height: 60px;
+    width: 60px;
+    border-right: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+.move{
+    margin-top: 60px;
+}
+
+#social-media{
+    background: #e9eaec;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 150px;
+    transition: 0.5s;
+    padding: 20px;
+}
+.social-icons a:hover img{
+    transform: translateY(-15px);
+}
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #e9eaec;
+    padding: 70px 0;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box img{
+    width: 200px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+}
